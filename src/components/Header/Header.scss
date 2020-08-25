@@ -1,0 +1,36 @@
+.header {
+  border-bottom: 2px solid #131212;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+
+    .logo {
+      cursor: pointer;
+
+      &:hover {
+        color: orange;
+      }
+    }
+
+    .nav-links {
+      display: flex;
+      cursor: pointer;
+
+      .nav-link {
+        font-size: 18px;
+        letter-spacing: 2px;
+        list-style: none;
+
+        &:not(:last-child) {
+          margin-right: 30px;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+  }
+}
