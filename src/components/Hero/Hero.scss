@@ -1,0 +1,33 @@
+.hero-section {
+  margin: 0 50px;
+  display: flex;
+
+  .wrapper {
+    .title {
+      font-size: 100px;
+      letter-spacing: 16px;
+      color: rgb(177, 146, 87);
+    }
+  }
+}
+
+// .hero-section {
+// text-align: center;
+// position: relative;
+
+// .wrapper {
+//   .image {
+//     position: absolute;
+//     top: 0%;
+//     left: 21%;
+//   }
+
+//     .title {
+//       position: absolute;
+//       color: orange;
+//       font-size: 200px;
+//       letter-spacing: 70px;
+//       left: 15%;
+//     }
+//   }
+// }

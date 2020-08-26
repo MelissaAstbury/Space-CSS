@@ -1,15 +1,22 @@
 import React from "react";
+import { Route, Switch } from "react-router-dom";
 import "./App.scss";
 
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+import Home from "./containers/Home/Home";
 
 const App = () => {
+  const routes = (
+    <Switch>
+      <Route path="/" exact component={Home} />
+    </Switch>
+  );
+
   return (
-    <div className="app">
+    <React.Fragment>
       <Header />
-      <Hero />
-    </div>
+      {routes}
+    </React.Fragment>
   );
 };
 
